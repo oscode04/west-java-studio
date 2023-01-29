@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>West Java Studio</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- swiper js -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
+  </head>
+  <body>
+    <nav class="navbar sticky-top bgcolor navbar-expand-lg bg-transparent">
+      <div class="container mt-0">
+        <a class="navbar-brand logo" href="#">
+          <img src="aset/logo/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#landing-page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-work">Our Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-service">Our Sevice</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- page content -->
+    <div class="page-content page-home">
+      <section id="landing-page" class="landing-page">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-8 landing-page-text d-flex flex-column justify-content-center main-caption"
+            >
+              <h1>Capture Your</h1>
+              <h1><span>Beautiful</span> Memories</h1>
+              <p>
+                Every moment are importan, let’s capture your moment for
+                memories and you can also share the moment to all people.
+              </p>
+              <button type="button" class="btn btn-contact d-none d-sm-block">
+                Contact Us
+              </button>
+            </div>
+            <div
+              class="col-lg-4 main-image d-flex flex-column justify-content-center align-items-center pe-1 ps-1"
+            >
+              <img src="aset/main-image/main-img.jpg" alt="" />
+              <button
+                type="button"
+                class="btn btn-contact mb-4 d-block d-sm-none mt-4"
+              >
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our work -->
+      <section id="our-work" data-aos="fade-in" class="our-works">
+        <div class="container">
+          <div class="row">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="900"
+              data-aos-offset="150"
+              class="col-lg-3 col-sm our-works"
+            >
+              <!-- <h1 class="d-none d-sm-block">Our</h1>
+              <h1 class="d-none d-sm-block">Works</h1> -->
+              <h1>Our Works</h1>
+              <div class="underline"></div>
+            </div>
+            <div
+              data-aos="fade-left"
+              data-aos-duration="900"
+              data-aos-offset="200"
+              class="col-lg-9 col-sm gallery d-flex flex-row"
+            >
+              <div class="swiper slide-container">
+                <div class="slide-content">
+                  <div class="swiper-wrapper card-wraper">
+                    <div class="swiper-slide card">
+                      <div
+                        class="card-content"
+                        style="background-image: url(aset/our-works/1.jpg)"
+                      ></div>
+                      <div class="overlay">
+                        <div class="content">
+                          <h3>Graduation</h3>
+                          <p>Click For Details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-ow card">
+                      <div
+                        class="card-content"
+                        style="background-image: url(aset/our-works/2.jpg)"
+                      ></div>
+                      <div class="overlay">
+                        <div class="content">
+                          <h3>Wedding</h3>
+                          <p>Click For Details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-ow card">
+                      <div
+                        class="card-content"
+                        style="background-image: url(aset/our-works/3.jpg)"
+                      ></div>
+                      <div class="overlay">
+                        <div class="content">
+                          <h4>Birthday Party</h4>
+                          <p>Click For Details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-ow card">
+                      <div
+                        class="card-content"
+                        style="background-image: url(aset/our-works/4.jpg)"
+                      ></div>
+                      <div class="overlay">
+                        <div class="content">
+                          <h3>Event</h3>
+                          <p>Click For Details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-ow card">
+                      <div
+                        class="card-content"
+                        style="background-image: url(aset/our-works/5.jpg)"
+                      ></div>
+                      <div class="overlay">
+                        <div class="content">
+                          <h3>Product Fotography</h3>
+                          <p>Click For Details</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-ow card">
+                      <div
+                        class="card-content"
+                        style="background-image: url(aset/our-works/6.jpg)"
+                      ></div>
+                      <div class="overlay">
+                        <div class="content">
+                          <h3>Food Fotography</h3>
+                          <p>Click For Details</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- our work -->
+
+      <!-- our service except mobile -->
+      <section id="our-service" class="our-services d-none d-sm-block">
+        <div class="container">
+          <div class="our-service" data-aos="fade-down" data-aos-offset="100">
+            <h1>Our Services</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="row">
+            <div
+              class="col-lg-3 d-flex flex-column align-items-center"
+              data-aos="zoom-in"
+            >
+              <div class="service-icon d-flex flex-column align-items-center">
+                <img src="aset/our-service/ring.svg" alt="" />
+                <p>Wedding Photography</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 d-flex flex-column align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="service-icon d-flex flex-column align-items-center">
+                <img src="aset/our-service/cake.svg" alt="" />
+                <p>Birthday Photography</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 d-flex flex-column align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="service-icon d-flex flex-column align-items-center">
+                <img src="aset/our-service/event.svg" alt="" />
+                <p>Event Photography</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 d-flex flex-column align-items-center"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="service-icon d-flex flex-column align-items-center">
+                <img src="aset/our-service/plus.svg" alt="" />
+                <p>Much More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end our service except mobile -->
+
+      <!-- our service mobile -->
+      <section id="our-service" class="our-services d-block d-sm-none">
+        <div class="container">
+          <div class="our-service" data-aos="fade-down">
+            <h1>Our Services</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="row">
+            <div class="col-6 d-flex justify-content-center" data-aos="zoom-in">
+              <div class="service-icon d-flex flex-column align-items-center">
+                <img src="aset/our-service/ring.svg" alt="" />
+                <p>Wedding Photography</p>
+              </div>
+            </div>
+            <div
+              class="col-6 d-flex justify-content-center"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="service-icon d-flex flex-column align-items-center">
+                <img src="aset/our-service/cake.svg" alt="" />
+                <p>Birthday Photography</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-6 d-flex justify-content-center"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="service-icon d-flex flex-column align-items-center">
+                <img src="aset/our-service/event.svg" alt="" />
+                <p>Event Photography</p>
+              </div>
+            </div>
+            <div
+              class="col-6 d-flex justify-content-center"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <div class="service-icon d-flex flex-column align-items-center">
+                <img src="aset/our-service/plus.svg" alt="" />
+                <p>Much More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- our service end mobile -->
+      <!-- testimoni -->
+      <section id="testimoni" class="testimoni">
+        <h1 data-aos="fade-down-left">Testimoni</h1>
+        <!-- Swiper -->
+        <div class="swiper testimoni" data-aos="flip-up">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-sld-cstm">
+              <div
+                class="testimoni-card justify-content-center align-items-center d-flex flex-column"
+              >
+                <div class="testimoni-img">
+                  <img src="aset/avatar/ava-1.png" alt="" />
+                </div>
+                <div class="testimoni-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                    tellus mi eleifend dolor nunc, viverra id. Consequat
+                    habitasse urna nibh.
+                  </p>
+                  <p>John Smith</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-sld-cstm">
+              <div
+                class="testimoni-card justify-content-center align-items-center d-flex flex-column"
+              >
+                <div class="testimoni-img">
+                  <img src="aset/avatar/ava-1.png" alt="" />
+                </div>
+                <div class="testimoni-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                    tellus mi eleifend dolor nunc, viverra id. Consequat
+                    habitasse urna nibh.
+                  </p>
+                  <p>John Smith</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-sld-cstm">
+              <div
+                class="testimoni-card justify-content-center align-items-center d-flex flex-column"
+              >
+                <div class="testimoni-img">
+                  <img src="aset/avatar/ava-1.png" alt="" />
+                </div>
+                <div class="testimoni-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                    tellus mi eleifend dolor nunc, viverra id. Consequat
+                    habitasse urna nibh.
+                  </p>
+                  <p>John Smith</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-sld-cstm">
+              <div
+                class="testimoni-card justify-content-center align-items-center d-flex flex-column"
+              >
+                <div class="testimoni-img">
+                  <img src="aset/avatar/ava-1.png" alt="" />
+                </div>
+                <div class="testimoni-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                    tellus mi eleifend dolor nunc, viverra id. Consequat
+                    habitasse urna nibh.
+                  </p>
+                  <p>John Smith</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-sld-cstm">
+              <div
+                class="testimoni-card justify-content-center align-items-center d-flex flex-column"
+              >
+                <div class="testimoni-img">
+                  <img src="aset/avatar/ava-1.png" alt="" />
+                </div>
+                <div class="testimoni-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
+                    tellus mi eleifend dolor nunc, viverra id. Consequat
+                    habitasse urna nibh.
+                  </p>
+                  <p>John Smith</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- end testimoni -->
+
+      <!-- contact us -->
+      <section id="contact-us" class="contact-us">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-3 mt-2 contact-us-tittle contact-us-tittle-small col-sm d-flex justify-content-center flex-column"
+              data-aos="flip-left"
+            >
+              <h1>Contact</h1>
+              <h1>Us</h1>
+              <div class="underline"></div>
+            </div>
+            <div class="col-lg-7">
+              <div class="container">
+                <div>
+                  <div class="contact-form row">
+                    <div class="form-field col-lg-12" data-aos="flip-up">
+                      <input
+                        id="name"
+                        class="input-text"
+                        type="text"
+                        name=""
+                        required
+                      />
+                      <label for="name" class="label">name</label>
+                    </div>
+                    <div class="form-field col-lg-12" data-aos="flip-up">
+                      <input
+                        id="email"
+                        class="input-text"
+                        type="text"
+                        name=""
+                        required
+                      />
+                      <label for="email" class="label">email</label>
+                    </div>
+                    <div class="form-field col-lg-12" data-aos="flip-up">
+                      <input
+                        id="phone"
+                        class="input-text"
+                        type="text"
+                        name=""
+                        required
+                      />
+                      <label for="phone" class="label">whatsApp number</label>
+                    </div>
+                    <div class="form-field col-lg-12" data-aos="flip-up">
+                      <input
+                        id="message"
+                        class="input-text"
+                        type="text"
+                        name=""
+                        required
+                      />
+                      <label for="message" class="label">message</label>
+                    </div>
+                    <div class="form-field col-lg-12" data-aos="flip-left">
+                      <input
+                        type="submit"
+                        class="submit-btn"
+                        value="send message"
+                        name=""
+                        id=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 contact-us-tittle contact-us-tittle-large d-flex justify-content-center flex-column"
+              data-aos="flip-left"
+            >
+              <h1>Contact</h1>
+              <h1>Us</h1>
+              <div class="underline"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end contact us -->
+    </div>
+    <!-- end page content -->
+
+    <!-- footer -->
+    <footer class="container-fluid">
+      <!-- <div class="row">
+        <div class="col-lg-4 col-xs-6 sosmed">
+          <i class="bi bi-instagram"></i>
+          <a href="#">
+            <p>@gaos_ahmad</p>
+          </a>
+        </div>
+        <div class="col-lg-4 col-xs-6 sosmed">
+          <i class="bi bi-whatsapp"></i>
+          <a href="#">
+            <p class="wa">0858-8165-5956</p>
+          </a>
+        </div>
+        <div class="col-lg-4 col-xs-6 sosmed">
+          <i class="bi bi-envelope"></i>
+          <a href="#">
+            <p>hellogaos@gmail.com</p>
+          </a>
+        </div>
+      </div> -->
+      <h6 class="footer-text">All Right Reserved || West Java Studio</h6>
+    </footer>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper js -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <!-- jquery -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
