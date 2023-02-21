@@ -199,8 +199,7 @@ body::-webkit-scrollbar-thumb {
 
 /* page content */
 .landing-page {
-  margin-top: 50px;
-  /* overflow: hidden; */
+  padding-top: 90px;
 }
 
 .landing-page-text h1 {
@@ -252,6 +251,10 @@ body::-webkit-scrollbar-thumb {
 
 /* responsive page content */
 @media (max-width: 576px) {
+  .landing-page {
+    padding-top: 70px;
+    margin-top: -50px;
+  }
   .landing-page-text h1 {
     font-size: 55px;
   }
@@ -266,36 +269,34 @@ body::-webkit-scrollbar-thumb {
 
 /* our works */
 .our-works {
-  margin-top: 120px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 95px;
+  padding-top: 160px;
+  padding-bottom: 50px;
   overflow: hidden;
 }
 
 @media (max-width: 576px) {
   .our-works {
-    margin-top: 50px;
-    margin-bottom: 35px;
+    margin-top: -30px;
+    padding-top: 90px;
+    /* margin-bottom: 10px; */
   }
-  .our-works h1 {
-    color: #f7f7ff;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 70px;
+  .our-works-content h1 {
     text-align: center;
+    margin-bottom: 3px;
+    padding-top: 15px !important;
   }
 
-  .our-works .underline {
-    height: 5px;
+  .our-works-content .underline {
     width: 150px !important;
-    margin-top: -15px;
-    border-radius: 10px;
-    background: #ffd447;
     margin: auto !important;
+    margin-bottom: 30px !important;
   }
 }
 
-.our-works h1 {
+.our-works-content h1 {
+  padding-top: 100px;
   color: #f7f7ff;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
@@ -303,7 +304,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 70px;
 }
 
-.our-works .underline {
+.our-works-content .underline {
   height: 5px;
   width: 70px;
   margin-top: -10px;
@@ -414,13 +415,11 @@ body::-webkit-scrollbar-thumb {
 /* end our works */
 
 /* our services */
-.container {
-  /* overflow: hidden; */
-}
 
-.our-service {
-  margin-top: 70px;
-  margin-bottom: 50px;
+.our-services {
+  margin-top: -150px;
+  padding-top: 180px;
+  padding-bottom: 90px;
 }
 
 /* @media (max-width: 576px) {
@@ -477,6 +476,25 @@ body::-webkit-scrollbar-thumb {
     padding: 5px;
     scale: 1.2;
   }
+  .our-service {
+    margin-top: -60px;
+    padding-top: 10px;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 576px) {
+  .our-services {
+    margin-top: -60px;
+    padding-top: 10px;
+    /* margin-bottom: 35px; */
+  }
+  .our-service h1 {
+    margin-bottom: 0px;
+  }
+
+  .our-service .underline {
+    margin-bottom: 20px;
+  }
 }
 
 /* .service-icon p:hover {
@@ -487,18 +505,19 @@ body::-webkit-scrollbar-thumb {
 /* end our services */
 
 /* testimoni */
-.testimoni {
-  margin-top: 100px;
+.testimonial {
+  /* margin-top: 100px; */
   margin-bottom: 50px;
   overflow: hidden;
+  padding-top: 100px;
 }
 
-.testimoni h1 {
+.testimonial h1 {
   color: #f7f7ff;
   font-family: "Josefin Sans";
   text-align: center;
   font-size: 55px;
-  margin-bottom: -70px;
+  /* margin-bottom: -70px; */
 }
 
 .testimoni-card {
@@ -565,6 +584,7 @@ div .swiper-pagination .swiper-pagination-bullet {
   }
   .testimoni h1 {
     margin-bottom: -45px !important;
+    margin-top: -80px !important;
   }
 }
 /* .swiper-sld-cstm img {
@@ -580,6 +600,7 @@ div .swiper-pagination .swiper-pagination-bullet {
   max-width: 90%;
   margin: 100px auto;
   position: relative;
+  padding-top: 100px;
   /* box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1); */
   /* background-color: white; */
 }
@@ -664,6 +685,10 @@ div .swiper-pagination .swiper-pagination-bullet {
 @media (max-width: 576px) {
   .contact-us-tittle-large {
     display: none !important;
+  }
+  .contact-us {
+    margin-top: -80px;
+    margin-bottom: 20px;
   }
 }
 
